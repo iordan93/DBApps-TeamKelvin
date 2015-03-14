@@ -1,0 +1,14 @@
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\SalesReport.ConsoleClient.exe.config
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\SalesReport.ConsoleClient.exe
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\SalesReport.ConsoleClient.pdb
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\EntityFramework.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\SalesReport.Data.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\SalesReport.Models.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\SalesReport.Data.pdb
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\SalesReport.Models.pdb
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\EntityFramework.xml
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\obj\Debug\SalesReport.ConsoleClient.csprojResolveAssemblyReference.cache
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\obj\Debug\SalesReport.ConsoleClient.exe
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\obj\Debug\SalesReport.ConsoleClient.pdb

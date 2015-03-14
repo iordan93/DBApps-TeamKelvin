@@ -1,0 +1,12 @@
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\SalesReport.Data.dll.config
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\SalesReport.Data.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\SalesReport.Data.pdb
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\EntityFramework.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\SalesReport.Models.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\SalesReport.Models.pdb
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\EntityFramework.xml
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\obj\Debug\SalesReport.Data.csprojResolveAssemblyReference.cache
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\obj\Debug\SalesReport.Data.dll
+c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Data\obj\Debug\SalesReport.Data.pdb
