@@ -12,3 +12,9 @@ c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.C
 c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\obj\Debug\SalesReport.ConsoleClient.csprojResolveAssemblyReference.cache
 c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\obj\Debug\SalesReport.ConsoleClient.exe
 c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\obj\Debug\SalesReport.ConsoleClient.pdb
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\MongoDB.Bson.dll
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\MongoDB.Bson.xml
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\MongoDB.Driver.xml

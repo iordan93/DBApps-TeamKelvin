@@ -18,6 +18,11 @@ namespace SalesReport.Data.Migrations
 
         protected override void Seed(SalesReportDBContext context)
         {
+            if (context.Products.Any())
+            {
+                return;
+            }
+
             var beerZagorka = new Product()
             {
                 Name = "Beer \"Zagorka\"",
