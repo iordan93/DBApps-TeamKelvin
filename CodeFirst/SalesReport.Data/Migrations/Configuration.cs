@@ -8,6 +8,8 @@ namespace SalesReport.Data.Migrations
     using SalesReport.Models;
     using System.Collections.Generic;
 
+    using EfEnumToLookup.LookupGenerator;
+
     public sealed class Configuration : DbMigrationsConfiguration<SalesReportDBContext>
     {
         public Configuration()
@@ -23,10 +25,14 @@ namespace SalesReport.Data.Migrations
                 return;
             }
 
+            var enumToLookup = new EnumToLookup();
+            enumToLookup.NameFieldLength = 42; // optional, example of how to override default values
+            enumToLookup.Apply(context);
+
             var beerZagorka = new Product()
             {
                 Name = "Beer \"Zagorka\"",
-                MeasureType = Measure.ml,
+                MeasureType = MeasureType.ml,
                 Price = 1.99m
             };
 
@@ -35,7 +41,7 @@ namespace SalesReport.Data.Migrations
             var vodkaTargovishte = new Product()
             {
                 Name = "Vodka \"Targovishte\"",
-                MeasureType = Measure.ml,
+                MeasureType = MeasureType.ml,
                 Price = 8.49m
             };
 
@@ -44,7 +50,7 @@ namespace SalesReport.Data.Migrations
             var beerBecks = new Product()
             {
                 Name = "Beer \"Beck's\"",
-                MeasureType = Measure.ml,
+                MeasureType = MeasureType.ml,
                 Price = 8.49m
             };
 
@@ -53,7 +59,7 @@ namespace SalesReport.Data.Migrations
             var chockolateMilka = new Product()
             {
                 Name = "Chocolate \"Milka\"",
-                MeasureType = Measure.gr,
+                MeasureType = MeasureType.gr,
                 Price = 2.99m
             };
 
@@ -62,7 +68,7 @@ namespace SalesReport.Data.Migrations
             var vodaDevin = new Product()
             {
                 Name = "Mineralna Voda \"Devin\"",
-                MeasureType = Measure.liters,
+                MeasureType = MeasureType.liters,
                 Price = 3.49m
             };
 
@@ -71,7 +77,7 @@ namespace SalesReport.Data.Migrations
             var svinskaParjola = new Product()
             {
                 Name = "Svinska Parjola",
-                MeasureType = Measure.kg,
+                MeasureType = MeasureType.kg,
                 Price = 5.99m
             };
 
@@ -80,7 +86,7 @@ namespace SalesReport.Data.Migrations
             var pileshkaParjola = new Product()
             {
                 Name = "Pileska Parjola",
-                MeasureType = Measure.kg,
+                MeasureType = MeasureType.kg,
                 Price = 4.99m
             };
 
@@ -89,7 +95,7 @@ namespace SalesReport.Data.Migrations
             var kinderSurprise = new Product()
             {
                 Name = "Kinder Surprise",
-                MeasureType = Measure.pieces,
+                MeasureType = MeasureType.pieces,
                 Price = 1.59m
             };
 
@@ -98,7 +104,7 @@ namespace SalesReport.Data.Migrations
             var mlqkoRodopeq = new Product()
             {
                 Name = "Kiselo mlqko \"Rodopeq\"",
-                MeasureType = Measure.ml,
+                MeasureType = MeasureType.ml,
                 Price = 1.59m
             };
 

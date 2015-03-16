@@ -14,6 +14,6 @@
 
         public virtual Vendor Vendor { get; set; }
 
-        public Measure MeasureType { get; set; }
+        public MeasureType MeasureType { get; set; }
     }
 }

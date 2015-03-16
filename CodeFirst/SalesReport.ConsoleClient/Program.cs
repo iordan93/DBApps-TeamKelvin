@@ -19,6 +19,8 @@
 
         static void Main()
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<SalesReportDBContext, Configuration>());
+
             Console.WriteLine("Type startdate in format: dd/MM/yyyy with leading zeros");
             string inputStartDate = Console.ReadLine();
             Console.WriteLine("Type enddate in format: dd/MM/yyyy with leading zeros");

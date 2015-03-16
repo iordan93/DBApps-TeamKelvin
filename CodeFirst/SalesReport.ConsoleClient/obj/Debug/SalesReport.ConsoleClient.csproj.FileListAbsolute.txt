@@ -18,3 +18,6 @@ C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.C
 C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\MongoDB.Driver.dll
 C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\MongoDB.Bson.xml
 C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\MongoDB.Driver.xml
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\EfEnumToLookup.dll
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\EfEnumToLookup.pdb
+C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ConsoleClient\bin\Debug\EfEnumToLookup.xml

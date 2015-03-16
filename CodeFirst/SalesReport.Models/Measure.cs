@@ -2,7 +2,7 @@
 {
     using System;
 
-    public enum Measure
+    public enum MeasureType
     {
         liters,
         pieces,
