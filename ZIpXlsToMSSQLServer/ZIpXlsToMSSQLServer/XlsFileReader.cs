@@ -26,10 +26,10 @@ namespace ZipXlsToMSSQLServer
 
             ISheet sheet = xlsFile.GetSheet("Sales");
 
-            Save2DB(sheet, saleDate);
+            CollectData(sheet, saleDate);
         }
 
-        public static void Save2DB(ISheet sheet, string saleDate)
+        public static void CollectData(ISheet sheet, string saleDate)
         {
             var db = new SalesReportEntities();
 
@@ -76,34 +76,50 @@ namespace ZipXlsToMSSQLServer
                         cell++;
                     }
 
-                    if (product.Name != null)
-                    {
-                        sale.Product = product;
-                        sale.Date = SaleDate(saleDate);
-
-                        if (db.Vendors.Where(x => x.Name == vendor.Name).Any())
-                        {
-                            db.Vendors
-                                .Where(x => x.Name == vendor.Name)
-                                .FirstOrDefault()
-                                .Products
-                                .Add(product);
-                        }
-                        else
-                        {
-                            db.Vendors.Add(vendor);
-                        }
-
-                        db.Products.Add(product);
-                        db.Sales.Add(sale);
-                        db.SaveChanges(); 
-                    }
+                    Save2DB(product, vendor, sale, db, saleDate);
                 }
 
+                product.Name = "";
                 cell = 1;
             }
 
             Console.WriteLine();
+        }
+
+        public static void Save2DB(Product product, Vendor vendor, Sale sale, SalesReportEntities db, string saleDate)
+        {
+            var currentVendor = db.Vendors.Where(x => x.Name == vendor.Name);
+
+            if (currentVendor.Any())
+            {
+                if (!currentVendor.FirstOrDefault().Products.Where(x => x.Name == product.Name && x.Price == product.Price).Any())
+                {
+                    currentVendor.FirstOrDefault().Products.Add(product);
+
+                    if (sale.Quantity > 0)
+                    {
+                        sale.Product = product;
+                        sale.Date = SaleDate(saleDate);
+                        db.Sales.Add(sale);
+                    }
+                }
+                else
+                {
+                    if (sale.Quantity > 0)
+                    {
+                        sale.Product =
+                            currentVendor.FirstOrDefault().Products.Where(x => x.Name == product.Name && x.Price == product.Price).FirstOrDefault();
+                        sale.Date = SaleDate(saleDate);
+                        db.Sales.Add(sale);
+                    }
+                }
+            }
+            else
+            {
+                db.Vendors.Add(vendor);
+            }
+
+            db.SaveChanges();
         }
 
         public static DateTime SaleDate(string saleDate)
