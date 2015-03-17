@@ -18,3 +18,6 @@ c:\users\dimitar\documents\visual studio 2013\Projects\ZIpXlsToMSSQLServer\ZIpXl
 c:\users\dimitar\documents\visual studio 2013\Projects\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\bin\Debug\NPOI.xml
 c:\users\dimitar\documents\visual studio 2013\Projects\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\bin\Debug\NPOI.OOXML.xml
 c:\users\dimitar\documents\visual studio 2013\Projects\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\bin\Debug\NPOI.OpenXml4Net.xml
+D:\GitHub\trunk\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\bin\Debug\ZIpXlsToMSSQLServer.exe.config
+D:\GitHub\trunk\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\obj\Debug\ZIpXlsToMSSQLServer.exe
+D:\GitHub\trunk\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\obj\Debug\ZIpXlsToMSSQLServer.pdb
