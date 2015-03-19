@@ -46,6 +46,7 @@
 
             CreateJSONFiles(db, productReportCollection);
             FillMongoDB(db, productReportCollection);
+            PdfReportCreator.CreatePdf();
         }
 
         public static void CreateJSONFiles(SalesReportDBContext db, IQueryable<IGrouping<string, Sale>> productReportCollection)
