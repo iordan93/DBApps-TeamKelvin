@@ -15,22 +15,24 @@ namespace ZipXlsToMSSQLServer
         {
             using (ZipFile zip = ZipFile.Read(filePath))
             {
-                XlsFileReader.ReadXls(@"D:\SoftUni\Course #3\DBApps\TeamWork\Database-Apps-Teamwork-Project\" +
-                    @"Sample-Sales-Reports\20-Jul-2014\Kaspichan-Center-Sales-Report-20-Jul-2014.xls");
-                /*foreach (var file in zip)
+                //XlsFileReader.ReadXls(@"D:\SoftUni\Course #3\DBApps\TeamWork\Database-Apps-Teamwork-Project\" +
+                //    @"Sample-Sales-Reports\20-Jul-2014\Kaspichan-Center-Sales-Report-20-Jul-2014.xls");
+                foreach (var file in zip)
                 {
                     if (file.FileName.Contains(".xls"))
                     {
                         string pathInsideZip = file.FileName;
-                        string fullPath = filePath + '\\' + pathInsideZip.Replace('/', '\\');
+                        string fullPath = filePath.Replace("Sample-Sales-Reports.zip", "Sales") + '\\' + pathInsideZip.Replace('/', '\\');
+                        file.Extract("C:/Users/pc/Desktop/Sales/", ExtractExistingFileAction.OverwriteSilently);
+                        XlsFileReader.ReadXls(fullPath);
 
-                        XlsFileReader.ReadXls(@"D:\SoftUni\Course #3\DBApps\TeamWork\Database-Apps-Teamwork-Project\Sample-Sales-Reports\20-Jul-2014\Bourgas-Plaza-Sales-Report-20-Jul-2014.xls");
+                        //XlsFileReader.ReadXls(@"D:\SoftUni\Course #3\DBApps\TeamWork\Database-Apps-Teamwork-Project\Sample-Sales-Reports\20-Jul-2014\Bourgas-Plaza-Sales-Report-20-Jul-2014.xls");
                     }
-                }*/
+                }
             }
         }
 
-        public static void ReadDirecotory(string filePath)
+        public static void ReadDirectory(string filePath)
         {
             string[] subDirectories = Directory.GetDirectories(filePath);
             foreach (string subDir in subDirectories)

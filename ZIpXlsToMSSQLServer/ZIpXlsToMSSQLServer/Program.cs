@@ -10,10 +10,10 @@ namespace ZipXlsToMSSQLServer
     {
         static void Main()
         {
-            string filePath = @"D:\SoftUni\Course #3\DBApps\TeamWork\Database-Apps-Teamwork-Project\Sample-Sales-Reports";
-
-            // ZipFileReader.ReadZipFile(filePath);
-            ZipFileReader.ReadDirecotory(filePath);
+            //string filePath = @"D:\SoftUni\Course #3\DBApps\TeamWork\Database-Apps-Teamwork-Project\Sample-Sales-Reports";
+            string filePath = @"C:\Users\pc\Desktop\Sample-Sales-Reports.zip";
+            ZipFileReader.ReadZipFile(filePath);
+            // ZipFileReader.ReadDirectory(filePath);
         }
     }
 }

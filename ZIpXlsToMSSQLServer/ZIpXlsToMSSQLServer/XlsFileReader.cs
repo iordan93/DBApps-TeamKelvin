@@ -10,7 +10,7 @@ using System.IO;
 
 namespace ZipXlsToMSSQLServer
 {
-    class XlsFileReader
+    public class XlsFileReader
     {
         public static void ReadXls(string fileAndPath)
         {

@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'c:\users\dimitar\documents\visual studio 2013\Projects\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\SalesReport.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\SoftUni\Database Applications\DBApps-TeamKelvin\ZIpXlsToMSSQLServer\ZIpXlsToMSSQLServer\SalesReport.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

@@ -95,7 +95,8 @@
 
         public static void SaveProductToJsonFile(ProductReportJSON product)
         {
-            File.WriteAllText(@"C:\data\Json-Reports\" + product.Id + ".json", JsonConvert.SerializeObject(product));
+            //File.WriteAllText(@"C:\data\Json-Reports\" + product.Id + ".json", JsonConvert.SerializeObject(product));
+            File.WriteAllText(@"C:\Users\pc\Desktop\Json-Reports\" + product.Id + ".json", JsonConvert.SerializeObject(product));
         }
 
         public static void MongoDBConnect()
