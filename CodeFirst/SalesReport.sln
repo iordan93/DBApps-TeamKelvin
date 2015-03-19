@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesReport.Data", "SalesRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesReport.ConsoleClient", "SalesReport.ConsoleClient\SalesReport.ConsoleClient.csproj", "{9B54CB5E-375F-4B16-98EC-9A8C0F698228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesReport.ExportDataModels", "SalesReport.ExportDataModels\SalesReport.ExportDataModels.csproj", "{017CB28C-1D20-4EBB-87FD-3654E4BD7E4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9B54CB5E-375F-4B16-98EC-9A8C0F698228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B54CB5E-375F-4B16-98EC-9A8C0F698228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B54CB5E-375F-4B16-98EC-9A8C0F698228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017CB28C-1D20-4EBB-87FD-3654E4BD7E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017CB28C-1D20-4EBB-87FD-3654E4BD7E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017CB28C-1D20-4EBB-87FD-3654E4BD7E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017CB28C-1D20-4EBB-87FD-3654E4BD7E4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
