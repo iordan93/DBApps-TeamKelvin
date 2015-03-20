@@ -8,3 +8,13 @@ c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.M
 c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Models\bin\Debug\EntityFramework.SqlServer.dll
 c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Models\bin\Debug\EntityFramework.xml
 c:\users\dimitar\documents\visual studio 2013\Projects\SalesReport\SalesReport.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\bin\Debug\SalesReport.Models.dll.config
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\bin\Debug\SalesReport.Models.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\bin\Debug\SalesReport.Models.pdb
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\bin\Debug\EntityFramework.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\bin\Debug\EntityFramework.xml
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\obj\Debug\SalesReport.Models.csprojResolveAssemblyReference.cache
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\obj\Debug\SalesReport.Models.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Models\obj\Debug\SalesReport.Models.pdb
