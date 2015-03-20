@@ -46,3 +46,11 @@ D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Console
 D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\obj\Debug\SalesReport.ConsoleClient.csprojResolveAssemblyReference.cache
 D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\itextsharp.dll
 D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\itextsharp.xml
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\SalesReport.ExportDataModels.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\SalesReport.ExportDataModels.pdb
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\EPPlus.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\System.Data.SQLite.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\System.Data.SQLite.EF6.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\System.Data.SQLite.Linq.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\EPPlus.xml
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ConsoleClient\bin\Debug\System.Data.SQLite.xml

@@ -7,3 +7,12 @@ C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.E
 C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ExportDataModels\bin\Debug\MongoDB.Driver.xml
 C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ExportDataModels\obj\Debug\SalesReport.ExportDataModels.dll
 C:\Users\Dimitar\Documents\Visual Studio 2013\Projects\SalesReport\SalesReport.ExportDataModels\obj\Debug\SalesReport.ExportDataModels.pdb
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\bin\Debug\SalesReport.ExportDataModels.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\bin\Debug\SalesReport.ExportDataModels.pdb
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\bin\Debug\MongoDB.Bson.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\bin\Debug\MongoDB.Driver.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\bin\Debug\MongoDB.Bson.xml
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\bin\Debug\MongoDB.Driver.xml
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\obj\Debug\SalesReport.ExportDataModels.csprojResolveAssemblyReference.cache
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\obj\Debug\SalesReport.ExportDataModels.dll
+D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.ExportDataModels\obj\Debug\SalesReport.ExportDataModels.pdb

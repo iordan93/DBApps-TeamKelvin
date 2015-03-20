@@ -12,6 +12,8 @@
     using Newtonsoft.Json;
     using MongoDB.Driver;
     using MongoDB.Driver.Linq;
+    using System.Data.SQLite;
+    using System.Reflection;
 
     public class Program
     {
@@ -19,6 +21,30 @@
 
         static void Main()
         {
+            string sqliteDbPath = Path.Combine(Assembly.GetExecutingAssembly().Location, "..\\..\\..\\..\\");
+            sqliteDbPath = Path.GetFullPath(sqliteDbPath);
+            AppDomain.CurrentDomain.SetData("DataDirectory", sqliteDbPath);
+            var context = new VendorTaxesDbContext();
+            var tax = new VendorTax[] {
+            new VendorTax {
+                Id = 2,
+                Vendor = "Beer “Zagorka”",
+                Tax = 0.2m
+            },
+            new VendorTax {
+                Id = 3,
+                Vendor = "Chocolate “Milka”",
+                Tax = 0.18m
+            },
+            new VendorTax {
+                Id = 4,
+                Vendor = "Vodka “Targovishte”",
+                Tax = 0.25m
+            },
+            };
+            context.Taxes.AddRange(tax);
+            context.SaveChanges();
+
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<SalesReportDBContext, Configuration>());
 
             Console.WriteLine("Type startdate in format: dd/MM/yyyy with leading zeros");
@@ -27,6 +53,10 @@
             string inputEndDate = Console.ReadLine();
 
             SelectProductsBySalesRange(inputStartDate, inputEndDate);
+
+            PdfReportCreator.CreatePdf();
+
+
         }
 
         public static void SelectProductsBySalesRange(string inputStartDate, string inputEndDate)
@@ -46,7 +76,6 @@
 
             CreateJSONFiles(db, productReportCollection);
             FillMongoDB(db, productReportCollection);
-            PdfReportCreator.CreatePdf();
         }
 
         public static void CreateJSONFiles(SalesReportDBContext db, IQueryable<IGrouping<string, Sale>> productReportCollection)

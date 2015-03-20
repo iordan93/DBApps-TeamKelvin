@@ -28,7 +28,3 @@ D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\bi
 D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\obj\Debug\SalesReport.Data.csprojResolveAssemblyReference.cache
 D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\obj\Debug\SalesReport.Data.dll
 D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\obj\Debug\SalesReport.Data.pdb
-D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\obj\Debug\SalesReport.Data.Migrations.Initial.resources
-D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\obj\Debug\SalesReport.Data.csproj.GenerateResource.Cache
-D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\bin\Debug\itextsharp.dll
-D:\SoftUni\Database Applications\DBApps-TeamKelvin\CodeFirst\SalesReport.Data\bin\Debug\itextsharp.xml
