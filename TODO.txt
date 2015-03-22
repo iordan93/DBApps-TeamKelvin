@@ -1,0 +1,9 @@
+0. Relative file paths
+1. Export samo
+2. Datatabase first Oracle Map to MSSQL
+3. Check
+4. *** REFACTOR
+5. Check
+6. Check, *** REFACTOR
+7. Check, * REFACTOR
+8. Finish
