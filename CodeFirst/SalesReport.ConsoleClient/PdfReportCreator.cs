@@ -136,6 +136,8 @@
                 }
 
                 report.Close();
+
+                Console.WriteLine("Successfuly exported to PDF!");
             }
         }
     }

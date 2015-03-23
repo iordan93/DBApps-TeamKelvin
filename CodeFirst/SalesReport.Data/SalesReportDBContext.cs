@@ -16,5 +16,7 @@
         public DbSet<Sale> Sales { get; set; }
 
         public DbSet<Vendor> Vendors { get; set; }
+
+        public DbSet<MeasureType> MeasureTypes { get; set; }
     }
 }

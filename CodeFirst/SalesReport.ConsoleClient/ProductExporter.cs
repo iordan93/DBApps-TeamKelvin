@@ -63,6 +63,8 @@
             {
                 SaveProductToJsonFile(report);
             }
+
+            Console.WriteLine("Successfuly exported to JSON files!");
         }
 
         public void FillMongoDB(SalesReportDBContext db, IQueryable<IGrouping<string, Sale>> productReportCollection)
@@ -88,11 +90,13 @@
                     this.MongoDBCollection.Insert(report);
                 }
             }
+
+            Console.WriteLine("Successfuly exported to MongoDB!");
         }
 
         public void SaveProductToJsonFile(ProductReportJSON product)
         {
-            File.WriteAllText(@"C:\data\Json-Reports\" + product.Id + ".json", JsonConvert.SerializeObject(product));
+            File.WriteAllText(@"Json-Reports\" + product.Id + ".json", JsonConvert.SerializeObject(product));
         }
 
         public void MongoDBConnect()
